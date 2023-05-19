@@ -1,9 +1,0 @@
-Pre: Attempt to move over function that returns a tuple and has a
-tuple as an input from Rust to C#.
-
-Post: Looking into this further and upon realization, tuples are
-not a type of object in C and therefore aren't supported in FFI for
-C. Luckily, it is a case where C doesn't have a feature, but Rust
-and C# do. Therefore, for the future it should be noted that whenever
-a function needs a tuple in Rust, it needs to be implemented in C#
-manually using C# tuples.

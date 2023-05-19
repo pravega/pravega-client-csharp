@@ -1,6 +1,0 @@
-Pre: Attempt to move over enum from rust to c#. Expect there to be no problems.
-
-Post: Enums did not transfer over when put into the testing file. However, upon 
-adding the type to a function, either as an input or output, it generates. This
-behavior seems to indicate that objects are generated only if referenced in a 
-function in Rust.

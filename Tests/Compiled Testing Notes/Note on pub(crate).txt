@@ -1,7 +1,0 @@
-Pre: pub(crate) functions very similarly to "internal" and as such it is expected that
-an object with pub(crate) transferred over from Rust to C# will have the "internal"
-attribute placed on it. If not, this is a quick fix in production.
-
-Post: pub(crate) unfortunately does not transfer over, but as mentioned this is a quick
-fix as "internal" or another attribute can be added such that it is visible only within
-the .dll or as the functionality is needed.

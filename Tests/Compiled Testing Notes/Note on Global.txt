@@ -1,5 +1,0 @@
-Pre: Attempt to move a const object from Rust to C#. Expecting it to not work and
-require manual implementation using C#'s global system.
-
-Post: Found implementation where constants do work. Test successful. Use
-register(constant!(name of constant)) for inventory builder when transfering.

@@ -1,5 +1,0 @@
-Answer: Because traits are non-transferrable, it goes to reason that a manual implementation is needed.
-However, there is no easy or catch all way to define PartialEq and PartialOrd for all structs as what is
-equal and what is greater than may have different definitions. PartialEq could mean all values are equal,
-or it could mean that one specific value is equal to each other within an object. For the future, our C#
-code will contain manual implementations of PartialEq and PartialOrd in something similar to an interface.
